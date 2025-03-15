@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Ícone Python" title="Ícone Python" src="assets/python-logo.png" width="200px" />
+    <img alt="Ícone Python" title="Ícone Python" src="assets/python-logo.png" width="120px" />
 </h1>
 
 <h2 align="center">Pipeline de dados: Combinando Python e Orientação a Objetos</h2>
