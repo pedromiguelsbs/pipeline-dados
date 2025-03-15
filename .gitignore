@@ -1,3 +1,2 @@
-#Ignorar arquivos de ambiente virtual do Python
 .venv/
-venv/
+scripts/__pycache__/
