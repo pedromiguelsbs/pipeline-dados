@@ -1,8 +1,8 @@
 from processamento import Dados
 
 #EXTRACT
-empresa_a = Dados('raw_data/dados_empresaA.json', 'json')
-empresa_b = Dados('raw_data/dados_empresaB.csv', 'csv')
+empresa_a = Dados.get_data('raw_data/dados_empresaA.json', 'json')
+empresa_b = Dados.get_data('raw_data/dados_empresaB.csv', 'csv')
 
 #TRANSFORM
 key_mapping = {'Nome do Item' :'Nome do Produto', 

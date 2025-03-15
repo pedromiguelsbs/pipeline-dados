@@ -3,21 +3,19 @@ import csv
 
 class Dados:
 
-    def __init__(self, path, type):
-        self.__path = path
-        self.__type = type
-        self.__data = self.get_data()
+    def __init__(self, data):
+        self.__data = data
         self.__columns = self.get_columns()
         self.__lenght = self.get_lenght()
 
-    def __read_json(self):
-        with open(self.__path, 'r') as file:
+    def __read_json(path):
+        with open(path, 'r') as file:
             data = json.load(file)
         return data
 
-    def __read_csv(self):
+    def __read_csv(path):
         data = []
-        with open(self.__path, 'r') as file:
+        with open(path, 'r') as file:
             spamreader = csv.DictReader(file, delimiter=',')
             for row in spamreader:
                 data.append(row)
@@ -38,7 +36,7 @@ class Dados:
         combined_datas = []
         combined_datas.extend(data_a.__data)
         combined_datas.extend(data_b.__data)
-        return Dados(combined_datas, 'list')
+        return Dados(combined_datas)
     
     #Resolvendo o problema da coluna faltante 'Data da Venda' no JSON
     def __standardize_columns(self):
@@ -56,15 +54,13 @@ class Dados:
             writer = csv.writer(file)
             writer.writerows(data)
 
-    def get_data(self):
-        if self.__type == 'json':
-            data = self.__read_json()
-        elif self.__type == 'csv':
-            data = self.__read_csv()
-        elif self.__type == 'list':
-            data = self.__path
-            self.__path = 'Lista em memória'
-        return data            
+    @classmethod
+    def get_data(cls, path, type):
+        if type == 'json':
+            data = cls.__read_json(path)
+        elif type == 'csv':
+            data = cls.__read_csv(path)
+        return cls(data)        
 
     def get_columns(self):
         return list(self.__data[-1].keys())
