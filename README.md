@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Ícone Excel" title="Ícone Excel" src="assets/python-logo.png" width="200px" />
+    <img alt="Ícone Python" title="Ícone Python" src="assets/python-logo.png" width="200px" />
 </h1>
 
 <h2 align="center">Pipeline de dados: Combinando Python e Orientação a Objetos</h2>
@@ -8,7 +8,7 @@
  <a href="https://www.linkedin.com/in/pedromiguelsbs/">
    <img alt="Criado por" src="https://img.shields.io/static/v1?label=Criado por&message=pedromiguelsbs&color=FFD34B&labelColor=000000">
  </a>
- <a href="https://github.com/pedromiguelsbs/pipeline-dados/blob/main/LICENSE">
+ <a href="https://github.com/pedromiguelsbs/pipeline-dados/blob/master/LICENSE">
    <img alt="License" src="https://img.shields.io/static/v1?label=License&message=MIT&color=FFD34B&labelColor=000000">
  </a>
 </p>
@@ -104,6 +104,6 @@ Se quiser sugerir melhorias ou compartilhar novos insights, fique à vontade par
 
 ## Licença
 
-Esse projeto está sob a licença MIT. Consulte o arquivo [LICENSE](https://github.com/pedromiguelsbs/pipeline-dados/blob/main/LICENSE) para mais detalhes.
+Esse projeto está sob a licença MIT. Consulte o arquivo [LICENSE](https://github.com/pedromiguelsbs/pipeline-dados/blob/master/LICENSE) para mais detalhes.
 
 ---
