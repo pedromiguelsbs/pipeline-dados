@@ -23,7 +23,7 @@
 
 # Sobre 
 
-Este repositório contém os arquivos e materiais do projeto de Construção de Pipeline ETL (Extract, Transform, Load). O objetivo é desenvolver um pipeline de dados eficiente para unificar bases de duas empresas distintas, garantindo consistência e qualidade dos dados.
+Este repositório contém os arquivos e materiais do projeto de Construção de **Pipeline ETL** (Extract, Transform, Load). O objetivo é desenvolver um pipeline de dados eficiente para **unificar bases de duas empresas distintas**, garantindo consistência e qualidade dos dados.
 
 ## Conteúdo  
 
@@ -87,17 +87,18 @@ Python: Versão 3.8 ou superior.
 Editor de código: Um editor como Visual Studio Code, PyCharm ou até mesmo o Jupyter Notebook (para explorar os notebooks)
 
 2) O projeto está estruturado da seguinte forma:
-> notebooks/: Inclui o notebook 'exploracao.ipynb', que pode ser usado para explorar os dados.
 
-> processed_data/: Armazena os dados processados gerados no final do pipeline (dados_combinados.csv).
+`notebooks/`: Inclui o notebook 'exploracao.ipynb', que pode ser usado para explorar os dados.
 
-> raw_data/: Contém os dados originais que serão processados.
+`processed_data/`: Armazena os dados processados gerados no final do pipeline (dados_combinados.csv).
 
-> scripts/: 
+`raw_data/`: Contém os dados originais que serão processados.
 
-> pipeline_fusao.py: Script principal que você deve executar para rodar o pipeline de fusão de dados e gerar os dados finais. 
+`scripts/`: Armazena os arquivos principais para o processo de ETL
 
-> processamento.py: Contém a classe Dados, que implementa a lógica orientada a objetos usada pelo pipeline_fusao.py.
+`pipeline_fusao.py`: Script principal que você deve executar para rodar o pipeline de fusão de dados e gerar os dados finais. 
+
+`processamento.py`: Contém a classe Dados, que implementa a lógica orientada a objetos usada pelo pipeline_fusao.py.
 
 ## Contribuições
 Se quiser sugerir melhorias ou compartilhar novos insights, fique à vontade para abrir uma _issue_ ou enviar um _pull request_.  
