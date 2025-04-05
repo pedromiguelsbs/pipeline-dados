@@ -25,6 +25,10 @@
 
 Este repositório contém os arquivos e materiais do projeto de Construção de **Pipeline ETL** (Extract, Transform, Load). O objetivo é desenvolver um pipeline de dados eficiente para **unificar bases de duas empresas distintas**, garantindo consistência e qualidade dos dados.
 
+<p align="center">
+  <img src="assets/diagrama_tabelas.png" alt="Diagrama de Unificação de Tabelas" width="540px" />
+</p>
+
 ## Conteúdo  
 
 ### Estruturando o Projeto
