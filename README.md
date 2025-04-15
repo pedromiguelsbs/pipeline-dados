@@ -6,7 +6,7 @@
 
 <p align="center">
  <a href="https://www.linkedin.com/in/pedromiguelsbs/">
-   <img alt="Criado por" src="https://img.shields.io/static/v1?label=Criado por&message=pedromiguelsbs&color=FFD34B&labelColor=000000">
+   <img alt="Criado por" src="https://img.shields.io/static/v1?label=Criador&message=pedromiguelsbs&color=FFD34B&labelColor=000000">
  </a>
  <a href="https://github.com/pedromiguelsbs/pipeline-dados/blob/master/LICENSE">
    <img alt="License" src="https://img.shields.io/static/v1?label=License&message=MIT&color=FFD34B&labelColor=000000">
