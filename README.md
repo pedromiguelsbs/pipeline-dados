@@ -2,7 +2,7 @@
     <img alt="Ícone Python" title="Ícone Python" src="assets/python-logo.png" width="120px" />
 </h1>
 
-<h2 align="center">Pipeline de dados: Combinando Python e Orientação a Objetos</h2>
+<h2 align="center">Pipeline ETL: Combinando Python e Orientação a Objetos</h2>
 
 <p align="center">
  <a href="https://www.linkedin.com/in/pedromiguelsbs/">
